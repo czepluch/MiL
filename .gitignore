@@ -31,3 +31,5 @@
 *.xdy
 *.tdo
 report/report.pdf
+report/In-depth/.DS_Store
+report/Pictures/.DS_Store
