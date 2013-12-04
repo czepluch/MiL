@@ -33,3 +33,6 @@
 report/report.pdf
 report/In-depth/.DS_Store
 report/Pictures/.DS_Store
+*.sublime-project
+*.sublime-workspace
+.DS_Store
