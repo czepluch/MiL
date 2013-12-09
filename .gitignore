@@ -36,3 +36,4 @@ report/Pictures/.DS_Store
 *.sublime-project
 *.sublime-workspace
 .DS_Store
+report.pdf
