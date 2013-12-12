@@ -13,11 +13,13 @@
 \usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
 \usepackage{enumitem}
 \usepackage{newclude}
+\usepackage{float}
+\usepackage{pbox}
+\restylefloat{table}
 \newcommand{\field} [1] {\mathbb{#1}}
 \newcommand{\mil}{Musik i Lejet }
 \newcommand{\milNO}{Musik i Lejet}
 \begin{document}
-
 \begin{titlepage}
 \centering \parindent=0pt
 \newcommand{\HRule}{\rule{\textwidth}{1mm}}
@@ -46,6 +48,7 @@ December 15, 2013 \end{flushleft}
 \include{Innovation/innovation}
 \appendix
 \part{Appendix}
+\include{Appendix/glossary}
 \include{Appendix/bmc}
 
 %\pagebreak
