@@ -1,23 +1,23 @@
 %!TEX root = /Users/Abj/git/MiL/report/report.tex
 \part{Innovation}
-As the previous sections of the \texttt{In-depth phase} in part \ref{prt:in_depth_analysis},
-especially in section \ref{sub:goprne}, has shown,
-the organisation has room for optimisation and improvements. Based on the \ref{sub:ideas} that we
-have developed and the fact that the organisation wants to continue using Podio, we have chosen two that we believe will bring the most benefits to the organisation.
-We will in the following analyse both the solutions, and try to determine which will be the best or
-if a third solution will emerge from this analysis. A short description of the ideas in focus
-follows:
+%As the previous sections of the \texttt{In-depth phase} in part \ref{prt:in_depth_analysis},
+%especially in section \ref{sub:goprne}, has shown,
+%the organisation has room for optimisation and improvements. Based on the \ref{sub:ideas} that we
+%have developed and the fact that the organisation wants to continue using Podio, we have chosen two that we believe will bring the most benefits to the organisation.
+%We will in the following analyse both the solutions, and try to determine which will be the best or
+%if a third solution will emerge from this analysis. A short description of the ideas in focus
+%follows:
 
 
-1. Work processes for Podio\\
-In the previous the Diagnostic Map in section xx revealed several problem and related causes found in the organization. In 5b its said that the cause of this problem, is that their is too much off topic discussion and also that no real difference between pure informational topics and topics for discussions are in place within the organizational use of Podio. As Stine F also points out in 1a, the organization faces a problem about sharing of knowledge, since this is not documented properly on Podio.\\
+%1. Work processes for Podio\\
+%In the previous the Diagnostic Map in section xx revealed several problem and related causes found in the organization. In 5b its said that the cause of this problem, is that their is too much off topic discussion and also that no real difference between pure informational topics and topics for discussions are in place within the organizational use of Podio. As Stine F also points out in 1a, the organization faces a problem about sharing of knowledge, since this is not documented properly on Podio.\\
 
-This solution proposal will attempt to structure work processes when using Podio and make guidelines for the information posted at Podio. This proposal will therefore be directed at the use of Podio, with respect to the mentioned things in the above, and will keep to the organizations strategy about using Podio as their primary IT solution. 
+%This solution proposal will attempt to structure work processes when using Podio and make guidelines for the information posted at Podio. This proposal will therefore be  directed at the use of Podio, with respect to the mentioned things in the above, and will keep to the organizations strategy about using Podio as their primary IT solution. 
 
-2. Podio App
-This solution consists of the development of a Podio application \footnote{https://developers.podio.com/doc/app-store}.
-The application will be used to create, store, and visualise tasks in- and externally in the teams.
-Thus, hopefully, making it very transparent which tasks are due to when.\\
+%2. Podio App
+%This solution consists of the development of a Podio application \footnote{https://developers.podio.com/doc/app-store}.
+%The application will be used to create, store, and visualise tasks in- and externally in the teams.
+%Thus, hopefully, making it very transparent which tasks are due to when.\\
 
 \section{WORK PROCESSES}
 \subsection{Visions for change}
@@ -91,7 +91,7 @@ This solution is at its a heart in interactive visualization of tasks and task d
     \item Tasks include a "Done" description, in which the sender of the task may include a short description of when the task is considered to be done.
     \item Tasks are done when the receiving team presses the "Done" button under a task.
 \end{itemize}
-The data and functionality described above makes it possible to create a task map. The task map displays all active tasks in the system. A task is active if any of its subtasks are incomplete, or if it is itself a subtask to a task that is incomplete. Tasks are displayed graphically, with dependencies between them drawn as an directed arrow between them. Clicking a task will take the user to the task on Podio, where a detailed view of the task can be found. This solution will give arrangers an overview of deadlines, tasks associated with deadlines and dependencies between them across arranger teams.
+The data and functionality described above makes it possible to create a task map. The task map displays all active tasks in the system. A task is active if any of its subtasks are incomplete, or if it is itself a subtask to a task that is incomplete. Tasks are displayed graphically, with dependencies between them drawn as an directed arrow between them. Clicking a task will take the user to the task on Podio, where a detailed view of the task can be found. This solution will give arrangers an overview of deadlines, tasks associated with deadlines and dependencies between them across arranger teams, as to address problems discussed in (ref diagnostic map).
 
 
 \subsection{Technology}
@@ -99,7 +99,6 @@ The data and functionality described above makes it possible to create a task ma
 The solution uses the built in functionality of Podio to build custom Podio apps to create the needed modifications to Podio tasks. The task map is drawn on a webpage outside of the Podio domain, using the Podio REST API.
 
 \subsubsection{IT systems and IT platform}
-
 The solution is primarily dependent on the existing Podio platform. It is necessary that Podio maintains the possibility of defining custom apps and accessing Podio data through the REST API.
 
 \subsubsection{User interfaces}
@@ -107,45 +106,21 @@ On Podio, the interface is built using the existing Podio app builder tools. The
 
 \subsection{Work organisation}
 \label{sub:work_organisation}
-Arrangers and team leaders will have to change their work-flow with creating tasks, to comply with the format described in section \ref{visions_for_change}. An introduction to using the task map must also be designed.
+Arrangers and team leaders will have to change their work-flow with creating tasks, to comply with the format described in section \ref{visions_for_change}. An introduction to using the task map must also be created. 
 
 \subsection{Qualification needs}
 \label{sub:qualification_needs}
-According to section \ref{sec:work_domains}, the team leaders are the people responsible of making
-sure a team's task is done before the deadline is exceeded. The team leaders are also responsible
-of an entire team of arrangers, which means that they meet with their team from time to time. This
-makes the team leaders the most obvious and important user of all the functionalities of the new
-system, thus making them the main users of the new system. 
-
-The team leaders are the ones with the most experience in using Podio \ref{source}. Due to the above
-the need of qualifications are most important to the team leaders. 
-
-It is therefore important that the team leaders get the proper education regarding the new
-application and its features. As described in section \ref{sub:technology}, the application is quite
-simple and without too many complicated features. With this in mind, we believe that giving the team
-leaders plus the four board members a full introduction, with an estimated duration of three hours,
-and a manual to the application, should suffice to get the attendees to feel home in the use of the
-application. We do also believe that the knowledge gained during this introduction, will make the
-team leaders able to teach the rest of the team, how the application works.
+The solution depends on arrangers and team leaders using Podio correctly. This means that arrangers and team leaders must know how to use Podio.
 
 \subsection{Advantages and disadvantages}
 \label{sec:advantages_disadvantages}
-In this section, we will provide an overview of the advantages and disadvantages of this particular
-IT solution.
-
-
 \begin{center}
     \begin{tabular}{ | p{7cm} | p{7cm} |}
     \hline
     \textbf{Advantages} & \textbf{Disadvantages}  \\ \hline
-    Simple & Does not fulfill all needs  \\ \hline
-    The organisation already knows Podio & There is a risk that people will not use it correct \\
-    \hline
-    Creates awareness of deadlines ex- and internally in the teams & Time consuming to learn \\ \hline
-    Gives the board a good overview of the current status of the current tasks & none \\ \hline
-    Offers a central place to store documentation of done tasks & It will take a long time to move
-    all old documentation to the new system \\ \hline
-    Add more... & Add more here too... \\ 
+     Raises awareness of deadlines and dependencies between teams & Risk of arrangers not using the system\\ \hline
+     Makes information about deadlines easier to find & Time must be invested in teaching arrangers how to and when to create tasks\\ \hline
+     Integrated with a system that is already known and used by arrangers and team leaders & Solution is dependent on Podio maintaining custom app possibilities and a Web service interface \\ \hline
     \hline
     \end{tabular}
 \end{center}
@@ -154,5 +129,5 @@ IT solution.
 \subsection{Finances}
 
 \subsection{Implementation strategy}
-
+The solution can be implemented.
 
